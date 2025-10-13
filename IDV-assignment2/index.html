@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 2 - SVG Transformations</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 30px;
+      color: #333;
+    }
+    table {
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+      transition: 0.3s;
+    }
+    /* Transformations */
+    .mirror {
+      transform: scaleX(-1);
+    }
+    .rotate {
+      transform: rotate(180deg);
+    }
+    .compress {
+      transform: scaleY(0.5);
+    }
+    .gray {
+      filter: grayscale(100%);
+    }
+  </style>
+</head>
+<body>
+  <h1>SVG Transformations</h1>
+
+  <table>
+    <tr>
+      <th>Original</th>
+      <th>Mirror</th>
+      <th>Rotate 180°</th>
+      <th>Compress 50%</th>
+      <th>Grayscale</th>
+    </tr>
+
+    <!-- SVG 1 -->
+    <tr>
+      <td><img src="svg1.svg" alt="SVG1 Original"></td>
+      <td><img src="svg1.svg" class="mirror" alt="SVG1 Mirror"></td>
+      <td><img src="svg1.svg" class="rotate" alt="SVG1 Rotate"></td>
+      <td><img src="svg1.svg" class="compress" alt="SVG1 Compress"></td>
+      <td><img src="svg1.svg" class="gray" alt="SVG1 Gray"></td>
+    </tr>
+
+    <!-- SVG 2 -->
+    <tr>
+      <td><img src="svg2.svg" alt="SVG2 Original"></td>
+      <td><img src="svg2.svg" class="mirror" alt="SVG2 Mirror"></td>
+      <td><img src="svg2.svg" class="rotate" alt="SVG2 Rotate"></td>
+      <td><img src="svg2.svg" class="compress" alt="SVG2 Compress"></td>
+      <td><img src="svg2.svg" class="gray" alt="SVG2 Gray"></td>
+    </tr>
+
+    <!-- SVG 3 -->
+    <tr>
+      <td><img src="svg3.svg" alt="SVG3 Original"></td>
+      <td><img src="svg3.svg" class="mirror" alt="SVG3 Mirror"></td>
+      <td><img src="svg3.svg" class="rotate" alt="SVG3 Rotate"></td>
+      <td><img src="svg3.svg" class="compress" alt="SVG3 Compress"></td>
+      <td><img src="svg3.svg" class="gray" alt="SVG3 Gray"></td>
+    </tr>
+
+    <!-- SVG 4 -->
+    <tr>
+      <td><img src="svg4.svg" alt="SVG4 Original"></td>
+      <td><img src="svg4.svg" class="mirror" alt="SVG4 Mirror"></td>
+      <td><img src="svg4.svg" class="rotate" alt="SVG4 Rotate"></td>
+      <td><img src="svg4.svg" class="compress" alt="SVG4 Compress"></td>
+      <td><img src="svg4.svg" class="gray" alt="SVG4 Gray"></td>
+    </tr>
+
+    <!-- SVG 5 -->
+    <tr>
+      <td><img src="svg5.svg" alt="SVG5 Original"></td>
+      <td><img src="svg5.svg" class="mirror" alt="SVG5 Mirror"></td>
+      <td><img src="svg5.svg" class="rotate" alt="SVG5 Rotate"></td>
+      <td><img src="svg5.svg" class="compress" alt="SVG5 Compress"></td>
+      <td><img src="svg5.svg" class="gray" alt="SVG5 Gray"></td>
+    </tr>
+
+    <!-- SVG 6 -->
+    <tr>
+      <td><img src="svg6.svg" alt="SVG6 Original"></td>
+      <td><img src="svg6.svg" class="mirror" alt="SVG6 Mirror"></td>
+      <td><img src="svg6.svg" class="rotate" alt="SVG6 Rotate"></td>
+      <td><img src="svg6.svg" class="compress" alt="SVG6 Compress"></td>
+      <td><img src="svg6.svg" class="gray" alt="SVG6 Gray"></td>
+    </tr>
+
+    <!-- SVG 7 -->
+    <tr>
+      <td><img src="svg7.svg" alt="SVG7 Original"></td>
+      <td><img src="svg7.svg" class="mirror" alt="SVG7 Mirror"></td>
+      <td><img src="svg7.svg" class="rotate" alt="SVG7 Rotate"></td>
+      <td><img src="svg7.svg" class="compress" alt="SVG7 Compress"></td>
+      <td><img src="svg7.svg" class="gray" alt="SVG7 Gray"></td>
+    </tr>
+
+    <!-- SVG 8 -->
+    <tr>
+      <td><img src="svg8.svg" alt="SVG8 Original"></td>
+      <td><img src="svg8.svg" class="mirror" alt="SVG8 Mirror"></td>
+      <td><img src="svg8.svg" class="rotate" alt="SVG8 Rotate"></td>
+      <td><img src="svg8.svg" class="compress" alt="SVG8 Compress"></td>
+      <td><img src="svg8.svg" class="gray" alt="SVG8 Gray"></td>
+    </tr>
+
+    <!-- SVG 9 -->
+    <tr>
+      <td><img src="svg9.svg" alt="SVG9 Original"></td>
+      <td><img src="svg9.svg" class="mirror" alt="SVG9 Mirror"></td>
+      <td><img src="svg9.svg" class="rotate" alt="SVG9 Rotate"></td>
+      <td><img src="svg9.svg" class="compress" alt="SVG9 Compress"></td>
+      <td><img src="svg9.svg" class="gray" alt="SVG9 Gray"></td>
+    </tr>
+
+    <!-- SVG 10 -->
+    <tr>
+      <td><img src="svg10.svg" alt="SVG10 Original"></td>
+      <td><img src="svg10.svg" class="mirror" alt="SVG10 Mirror"></td>
+      <td><img src="svg10.svg" class="rotate" alt="SVG10 Rotate"></td>
+      <td><img src="svg10.svg" class="compress" alt="SVG10 Compress"></td>
+      <td><img src="svg10.svg" class="gray" alt="SVG10 Gray"></td>
+    </tr>
+  </table>
+</body>
+</html>
